@@ -13,7 +13,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <!-- Image and Description -->
           <div class="flex flex-col items-center">
-            <img src="/images/beanbag.jpg" alt="Picture of Me" class="rounded-full shadow-lg h-128 w-128 mb-4" />
+            <img src="/images/beanbag.jpg" alt="Picture of Me" class="rounded-full shadow h-96 w-96 mb-6 object-cover" />
             <p class="text-font text-base mb-4">
               I'm a software developer specializing in front-end and back-end development. I create dynamic, user-friendly web experiences with JavaScript, TypeScript, React, and WordPress. My back-end expertise includes PHP, Python, and SQL.
             </p>
@@ -55,7 +55,7 @@
     <section id="projects" class="h-fit bg-linen flex items-center justify-center py-12">
       <div class="container mx-auto px-4">
         <h1 class="text-4xl font-bold text-center mb-8 text-nepal">Projects</h1>
-        <h2 class="text-3xl text-center mb-6 text-base text-font">Below are some of my recent projects.</h2>
+        <h2 class="text-3xl text-center mb-6 text-base text-font">Below are some of my recent personal and professional projects.</h2>
         
         <div class="flex justify-center">
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 max-w-7xl">
