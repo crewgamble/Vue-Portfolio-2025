@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #586552;
+  --secondary: #434f45;
+  --info: #f3efe8;
+  --light: #b0b9a8;
+  --dark: #606C6a;
+  --linen: #ede7d3;
+  --nepal: #025a4e ;
+  --font: #4c6763;
+}
+
+.bg-dark {
+  background-color: var(--dark);
+}
+.bg-linen {
+  background-color: var(--linen);
+}
+.bg-info {
+  background-color: var(--info);
+}
+.bg-nepal {
+  background-color: var(--nepal);
+}
+.text-nepal {
+  color: var(--nepal);
+}
+.text-primary {
+  color: var(--primary);
+}
+.text-light {
+  color: var(--light);
+}
+.text-font {
+  color: var(--font);
+}
