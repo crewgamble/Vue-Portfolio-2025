@@ -35,3 +35,98 @@
 .text-font {
   color: var(--font);
 }
+
+
+#home {
+  position: relative; /* Ensures blobs stay inside this section */
+  overflow: hidden; /* Prevents overflow issues */
+  z-index: 1; /* Ensures it's above other background elements */
+}
+
+#home::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px; /* Adjust the height to control the fade effect */
+  background: linear-gradient(to top, #ede7d3, transparent);
+  pointer-events: none; /* Ensures it doesn’t interfere with interactions */
+  z-index: 3; /* Highest layer to overlay everything */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.content .quote {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 64px;
+  padding: 10px;
+  background-color: #101010;
+  border-radius: 10px;
+}
+
+.content .by {
+  color: #00e1ff;
+}
+
+.blob-outer-container {
+  position: absolute; /* Keeps it inside #home */
+  height: 100%;
+  width: 100%;
+  inset: 0;
+  margin: auto;
+  filter: blur(100px);
+  z-index: -1; /* Places it behind content but inside #home */
+}
+
+.blob-inner-container {
+  border-radius: 99999px;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transform: scale(0.8);
+}
+
+
+.blob {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  margin: auto;
+  background: conic-gradient(from 0deg,  
+    rgba(8, 255, 255, 0.4), /* Reduced opacity */
+    rgba(255, 102, 0, 0.3), 
+    rgba(187, 255, 161, 0.4), 
+    rgba(76, 0, 255, 0.2), 
+    rgba(171, 38, 102, 0.3), 
+    rgba(9, 255, 255, 0.4)
+  );
+  animation: spinBlob 8s linear infinite, moveBlob 10s ease-in-out infinite alternate;
+}
+
+section {
+  position: relative;
+  z-index: 2; /* Higher than blob (-1), ensuring it doesn’t show in other sections */
+}
+
+@keyframes spinBlob {
+  0% {
+      transform: rotate(0deg) scale(2);
+  }
+
+  100% {
+      transform: rotate(1turn) scale(2);
+  }
+}

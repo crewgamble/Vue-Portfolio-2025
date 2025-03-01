@@ -5,6 +5,12 @@
     <!-- Home Section -->
     <section id="home" class="h-100 bg-linen flex items-center justify-center">
       <h1 class="text-nepal text-4xl">Hey! I'm Crew.</h1>
+      <div class="blob-outer-container">
+      <div class="blob-inner-container">
+          <div class="blob"></div>
+      </div>
+  </div>
+
     </section>
 
     <!-- About Me Section -->
