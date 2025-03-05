@@ -61,10 +61,10 @@ export interface Project {
     {
       name: 'Mushroom Classification Neural Net',
       category: 'Personal',
-      desc: 'An AI-powered classifier that determines whether a mushroom is edible or poisonous based on its characteristics. \n\nAchieves 100% accuracy in classification by leveraging PyTorch for deep learning. \n\nA practical exploration of neural networks and their real-world applications.',
-      skills: ['Python', 'PyTorch',],
-      url: '',
+      desc: 'A full-stack AI-powered web application that classifies mushrooms as edible or poisonous based on their characteristics. \n\nDeveloped a deep learning model using PyTorch with 100% classification accuracy. \n\nBuilt a responsive front-end with TypeScript, TailwindCSS, and Vite, hosted on AWS. \n\nConnected the front-end to a Flask-powered API hosted on Render for real-time predictions.',
+      url: 'http://18.212.183.99/',
       image: '/images/mushroom.jpg',
-      repo: 'https://github.com/crewgamble/Mushroom-Neural-net'
+      repo: 'https://github.com/crewgamble/Mushroom-Neural-net',
+      skills: ['React', 'Python', 'PyTorch', 'Flask', 'TypeScript', 'JavaScript', 'CSS', 'TailwindCSS', 'Vite', 'AWS'],
   },
   ];
