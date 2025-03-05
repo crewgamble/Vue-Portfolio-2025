@@ -50,15 +50,6 @@ export interface Project {
   
     // Personal Projects
     {
-      name: 'Daily Doodle',
-      category: 'Personal',
-      desc: 'A fun and interactive web app that provides a new drawing prompt each day. Users can sketch their ideas on a virtual canvas and easily export their creations. \n\nBuilt with TypeScript and Next.js to refine front-end development skills while delivering a smooth and engaging user experience.',
-      url: 'https://dailydoodle.netlify.app/',
-      repo: 'https://github.com/crewgamble/Daily-Doodle',
-      image: '/images/doodle-preview.png',
-      skills: ['React', 'TypeScript', 'Next.js', 'CSS'],
-    },
-    {
       name: 'Mushroom Classification Neural Net',
       category: 'Personal',
       desc: 'A full-stack AI-powered web application that classifies mushrooms as edible or poisonous based on their characteristics. \n\nDeveloped a deep learning model using PyTorch with 100% classification accuracy. \n\nBuilt a responsive front-end with TypeScript, TailwindCSS, and Vite, hosted on AWS. \n\nConnected the front-end to a Flask-powered API hosted on Render for real-time predictions.',
@@ -67,4 +58,13 @@ export interface Project {
       repo: 'https://github.com/crewgamble/Mushroom-Neural-net',
       skills: ['React', 'Python', 'PyTorch', 'Flask', 'TypeScript', 'JavaScript', 'CSS', 'TailwindCSS', 'Vite', 'AWS'],
   },
+    {
+      name: 'Daily Doodle',
+      category: 'Personal',
+      desc: 'A fun and interactive web app that provides a new drawing prompt each day. Users can sketch their ideas on a virtual canvas and easily export their creations. \n\nBuilt with TypeScript and Next.js to refine front-end development skills while delivering a smooth and engaging user experience.',
+      url: 'https://dailydoodle.netlify.app/',
+      repo: 'https://github.com/crewgamble/Daily-Doodle',
+      image: '/images/doodle-preview.png',
+      skills: ['React', 'TypeScript', 'Next.js', 'CSS'],
+    },
   ];
