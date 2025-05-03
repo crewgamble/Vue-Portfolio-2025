@@ -21,7 +21,7 @@
           <div class="flex flex-col items-center">
             <img src="/images/beanbag.jpg" alt="Picture of Me" class="rounded-full shadow h-96 w-96 mb-6 object-cover" />
             <p class="text-font text-base mb-4">
-              I'm a software developer specializing in front-end and back-end development. I create dynamic, user-friendly web experiences with JavaScript, TypeScript, React, and WordPress. My back-end expertise includes PHP, Python, and SQL.
+              Former Collegiate Esports player turned software developer specializing in front-end and back-end development. I create dynamic, user-friendly web experiences with JavaScript, TypeScript, React, and WordPress. My back-end expertise includes PHP, Python, and SQL.
             </p>
             <p class="text-font text-base mb-4">
               Currently, I work as a front-end WordPress web developer, building high-performance websites. My passion lies in problem-solving, clean code, and continuous learning—whether it’s full-stack development or AI/ML.
